@@ -1,0 +1,12 @@
+# model checkpoints
+checkpoints*/
+*.pt
+*.pth
+*.ckpt
+
+# python
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
