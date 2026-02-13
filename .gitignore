@@ -1,0 +1,20 @@
+# Large artifacts / checkpoints
+checkpoints_*/
+assets/ckpts/
+model_weights&results.zip
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Data (keep splits only)
+data/
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
