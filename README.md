@@ -279,7 +279,7 @@ It contains:
 Because full checkpoints and generated artifacts are large, the repository keeps code + reports, and stores large bundles externally.
 
 - Model checkpoints + instance-eval result bundles (compressed):
-  - [Google Drive link](https://drive.google.com/file/d/1k2pnDV9Q2iYVAAjH9nfB1HPdU1ZRUFCZ/view?usp=drive_link)
+  - [Google Drive link](https://drive.google.com/file/d/1wYRdsronZV3HBRFiOseTMxTAoewrdp0W/view?usp=drive_link)
 - Original images + generated EDT files (compressed):
   - [Google Drive link](https://drive.google.com/file/d/1BL8yWM2eX913N4RWSmOLjmUSXS52JlrX/view?usp=drive_link)
 
