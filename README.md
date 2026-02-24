@@ -253,16 +253,6 @@ Interpretation:
 - The dual-head + watershed strategy helps compared with semantic-only masks, but crowded/low-contrast regions still cause merge/split ambiguity.
 - This is exactly where stronger instance-aware supervision and post-processing tuning are most impactful.
 
-## 5.2 Report-ready results table (merged)
-
-Use this compact table in your final submission:
-
-| Run | Encoder | Postprocess | Dice | IoU | AP50 | AP75 | mAP(0.50:0.95) | Inst F1@0.5 | AJI |
-|---|---|---|---:|---:|---:|---:|---:|---:|---:|
-| UNI2-h (Scheme A, best) | `uni2-h` | `t_fg=0.55`, `d_sigma=1.2`, `min_distance=13`, `peak_threshold=0.30`, `area_min=30` | **0.9357** | **0.8797** | **0.6382** | **0.5338** | **0.4772** | **0.7148** | **0.4746** |
-| UNI2-h (Scheme B, trade-off) | `uni2-h` | `t_fg=0.55`, `d_sigma=1.0`, `min_distance=12`, `peak_threshold=0.32`, `area_min=25` | 0.9357 | 0.8797 | 0.6438 | 0.5391 | 0.4809 | 0.7087 | 0.4647 |
-| Best open timm baseline | `vit_base_patch16_224` | `t_fg=0.5`, `d_sigma=1.0`, `min_distance=11`, `peak_threshold=0.25`, `area_min=20` | 0.8968 | 0.8144 | 0.5713 | 0.4196 | 0.3549 | 0.6752 | 0.3987 |
-
 ## 6) Reproducible notebook
 
 Notebook deliverable:
